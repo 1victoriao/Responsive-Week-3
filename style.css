@@ -89,3 +89,10 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
